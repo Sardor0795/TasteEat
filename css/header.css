@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.call-btn button{
+  border: unset;
+  background: transparent;
+	border: 2px solid #e1b168;
+	border-radius: 0px;
+	width: 295px;
+	height: 73px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Josefin Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	text-align: center;
+	letter-spacing: 0.2px;  
+	color: #ffffff;
+}
