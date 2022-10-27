@@ -24,6 +24,9 @@
 }
 .header {
 	background: #292e36;
+	max-width: 1440px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .action {
 	min-height: 370px;
