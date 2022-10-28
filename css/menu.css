@@ -86,5 +86,76 @@
   color: #292e36;
 }
 
-.menu__lists {
+.menu__lists-wrapper {
+  margin-bottom: 75px;
+}
+
+.menu__lists-wrapper:last-child {
+  margin-bottom: 60px;
+}
+
+.menu__list-title {
+  font-family: "Cormorant Infant";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin-bottom: 40px;
+}
+
+.menu__list {
+  list-style-type: none;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.menu__item-img {
+  width: 84px;
+  height: 84px;
+  margin-right: 20px;
+}
+
+.menu__item-texts {
+  flex-grow: 1;
+}
+
+.menu__list-name {
+  font-family: "Cormorant Infant";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin-bottom: 1px;
+}
+
+.menu__list-price {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu__list-price-line {
+  width: 259px;
+  height: 1px;
+  background-color: #aaaaaa;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  flex-grow: 1;
+  margin-bottom: 5px;
 }
