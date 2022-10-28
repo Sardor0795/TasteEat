@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans";
+}
+
+.container {
+  max-width: 1360px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dish {
+  padding-top: 120px;
+  padding-bottom: 140px;
+}
+.dish__btn-wrapper {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.dish__btn {
+  font-family: "Josefin Sans";
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #292e36;
+  background-color: transparent;
+  border: unset;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  padding-top: 5px;
+}
+.dish__title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+  margin-bottom: 12px;
+}
+.dish__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #555555;
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+.dish__cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.dish__card {
+  max-width: 317px;
+}
+.dish__card-img {
+  width: 100%;
+  margin-bottom: 9px;
+}
+.dish__card-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 13px;
+}
+.dish__card-name {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+.dish__card-price {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+.dish__card-text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+.bold {
+  font-weight: 700;
+}
+.dish__all-btn-wrapper {
+    text-align: center;
+}
+.dish__all-btn {
+  background: local;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  padding: 20px 57px;
+  border: 1px solid #e1b168;
+}
+.dish__all-btn:hover {
+  background: #e1b168;
+  color: #292e36;
+}
