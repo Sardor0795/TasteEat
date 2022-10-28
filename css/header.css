@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1360px;
   margin-right: auto;
