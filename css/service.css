@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans";
+}
+
+.container {
+  max-width: 1360px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.service__btn {
+  font-family: "Josefin Sans";
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: unset;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  padding-top: 5px;
+  margin-bottom: 12px;
+}
+
+.service {
+  background-color: #292e36;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.service .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.service__content {
+  max-width: 438px;
+}
+.service__btn {
+}
+.service__title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 13px;
+}
+.service__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.service__cards {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.service__card {
+  max-width: 254px;
+  min-width: 254px;
+  min-height: 235px;
+  border: 20px solid #323841;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.service__card-img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+.service__card-text {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  white-space: nowrap;
+}
