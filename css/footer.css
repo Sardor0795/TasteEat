@@ -6,11 +6,12 @@
 	font-family: "Josefin Sans";
 }
 .footer {
-	padding-top: 130px;
+	padding-top: 132px;
 	max-width: 1440px;
 	margin-right: auto;
 	margin-left: auto;
 	background: #292e36;
+	margin-top: -2px;
 }
 .footer_text {
 	font-style: normal;
