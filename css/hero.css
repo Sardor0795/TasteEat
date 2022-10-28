@@ -15,8 +15,9 @@
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  min-height: 802px;
+  min-height: 805px;
   align-items: flex-end;
+  margin-top: -3px;
 }
 
 .hero__content {
