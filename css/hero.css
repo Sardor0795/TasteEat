@@ -1,109 +1,117 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+.container {
+  max-width: 1360px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .hero {
-	display: flex;
-	max-width: 1440px;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #292e36;
-	min-height: 880px;
-	align-items: flex-end;
-	padding: 40px 40px 0 40px;
-  margin-top: -70px;
-  margin-bottom: 100px;
+  background-color: #292e36;
+}
+
+.hero .container {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 805px;
+  align-items: flex-end;
+  margin-top: -3px;
 }
 
 .hero__content {
-	width: 50%;
-	margin-right: 50px;
-	padding-bottom: 175px;
+  width: 50%;
+  margin-right: 50px;
+  padding-bottom: 175px;
 }
 
 .hero__title {
-  font-family: 'Cormorant Infant', serif;
-	font-weight: 400;
-	font-size: 100px;
-	line-height: 110px;
-	letter-spacing: 0.2px;
-	color: #ffffff;
-	margin-bottom: 26px;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 26px;
 }
 
 .hero__text {
-  font-family: 'Josefin Sans';
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-	letter-spacing: 0.2px;
-	color: #ffffff;
-	margin-bottom: 35px;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 35px;
 }
 
 .hero__btn {
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   background: local;
   cursor: pointer;
-	font-weight: 400;
-	font-size: 22px;
-	line-height: 33px;
-	text-align: center;
-	letter-spacing: 0.2px;
-	color: #e1b168;
-	padding: 20px 57px;
-	border: 1px solid #e1b168;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  padding: 20px 57px;
+  border: 1px solid #e1b168;
 }
+
 .hero__btn:hover {
   background: #e1b168;
-	color: #292e36;
+  color: #292e36;
 }
 
 .hero__img-wrapper {
-	width: 50%;
-	padding: 0px 30px;
-	position: relative;
-	min-height: 769px;
-	display: flex;
-	justify-content: flex-end;
-	flex-direction: column;
+  width: 50%;
+  padding: 0px 30px;
+  position: relative;
+  min-height: 769px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .hero__img-wrapper::before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 30px;
-	background: rgba(255, 255, 255, 0.1);
-	top: -30px;
-	left: 0;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  top: -30px;
+  left: 0;
 }
 
 .hero__img-wrapper::after {
-	content: "";
-	position: absolute;
-	width: 30px;
-	height: 100%;
-	background: rgba(255, 255, 255, 0.1);
-	top: 0;
-	left: -30px;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  top: 0;
+  left: -30px;
 }
 
 .frame::after {
-	content: "";
-	position: absolute;
-	width: 30px;
-	height: 100%;
-	background: rgba(255, 255, 255, 0.1);
-	top: 0;
-	right: -30px;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  top: 0;
+  right: -30px;
 }
 
 .hero__img {
-	max-width: 595px;
+  max-width: 595px;
 }
 
 .hero-svg {
-	position: absolute;
-	top: -20px;
-	right: -20px;
-	z-index: 10;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  z-index: 10;
 }

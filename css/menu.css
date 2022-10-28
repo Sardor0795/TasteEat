@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans";
+}
+
+.container {
+  max-width: 1360px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu {
+  background-color: #fff;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.menu__min-btn {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #292e36;
+  background-color: transparent;
+  border: unset;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  margin-bottom: 12px;
+}
+
+.menu__wrapper {
+  display: flex;
+}
+
+.menu__info {
+  width: 40%;
+  padding-right: 55px;
+}
+
+.menu__info-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+  margin-bottom: 13px;
+}
+
+.menu__info-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin-bottom: 45px;
+}
+
+.menu__info-img {
+  display: block;
+  width: 398px;
+  height: 548px;
+  margin-bottom: 60px;
+}
+
+.menu__info-btn {
+  background: local;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  padding: 20px 57px;
+  border: 1px solid #e1b168;
+}
+
+.menu__info-btn:hover {
+  background: #e1b168;
+  color: #292e36;
+}
+
+.menu__lists-wrapper {
+  margin-bottom: 75px;
+}
+
+.menu__lists-wrapper:last-child {
+  margin-bottom: 60px;
+}
+
+.menu__list-title {
+  font-family: "Cormorant Infant";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin-bottom: 40px;
+}
+
+.menu__list {
+  list-style-type: none;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.menu__item-img {
+  width: 84px;
+  height: 84px;
+  margin-right: 20px;
+}
+
+.menu__item-texts {
+  flex-grow: 1;
+}
+
+.menu__list-name {
+  font-family: "Cormorant Infant";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin-bottom: 1px;
+}
+
+.menu__list-price {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu__list-price-line {
+  width: 259px;
+  height: 1px;
+  background-color: #aaaaaa;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  flex-grow: 1;
+  margin-bottom: 5px;
+}

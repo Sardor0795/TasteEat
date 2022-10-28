@@ -13,56 +13,320 @@
 		<title>TasteEat</title>
 		<link rel="stylesheet" href="./css/header.css" />
 		<link rel="stylesheet" href="./css/hero.css" />
+		<link rel="stylesheet" href="./css/menu.css">
+		<link rel="stylesheet" href="./css/clients.css">
+		<link rel="stylesheet" href="./css/dishes.css">
 	</head>
 	<body>
+
+		<!-- ---------- Header Start ---------- -->
+
 		<div class="header">
-			<div class="action">
-				<div class="call">
-					<a href="tel:123 456 789" class="header-btn call-btn">Call - 123 456 789</a>
-				</div>
-				<div class="main-logo">
-					<img src="./media/img/main-img.png" alt="our main logo" />
-				</div>
-				<div class="reservation">
-					<button class="header-btn reservation-btn">Reservation</button>
+			<div class="container">
+				<div class="action">
+					<div class="call">
+						<a href="tel:123 456 789" class="header-btn call-btn">Call - 123 456 789</a>
+					</div>
+					<div class="main-logo">
+						<img src="./media/img/main-img.png" alt="our main logo" />
+					</div>
+					<div class="reservation">
+						<button class="header-btn reservation-btn">Reservation</button>
+					</div>
 				</div>
 			</div>
 			<hr class="line" />
-			<nav class="navbar">
-				<ul class="nav-links">
-					<li class="nav-item"><a href="#">Home</a></li>
-					<li class="nav-item"><a href="#">About Us</a></li>
-					<li class="nav-item"><a href="#">Our Menu</a></li>
-					<li class="nav-item"><a href="#">Pages</a></li>
-					<li class="nav-item"><a href="#">Blog</a></li>
-					<li class="nav-item"><a href="#">Contact Us</a></li>
-					<div class="icons">
-						<li class="nav-item"><i class="bi bi-instagram"></i></li>
-						<li class="nav-item"><i class="bi bi-facebook"></i></li>
-						<li class="nav-item"><i class="bi bi-twitter"></i></li>
-						<li class="nav-item"><i class="bi bi-pinterest"></i></li>
-					</div>
-				</ul>
-			</nav>
+			<div class="container">
+				<nav class="navbar">
+					<ul class="nav-links">
+						<li class="nav-item"><a href="#">Home</a></li>
+						<li class="nav-item"><a href="#">About Us</a></li>
+						<li class="nav-item"><a href="#">Our Menu</a></li>
+						<li class="nav-item"><a href="#">Pages</a></li>
+						<li class="nav-item"><a href="#">Blog</a></li>
+						<li class="nav-item"><a href="#">Contact Us</a></li>
+						<div class="icons">
+							<li class="nav-item"><i class="bi bi-instagram"></i></li>
+							<li class="nav-item"><i class="bi bi-facebook"></i></li>
+							<li class="nav-item"><i class="bi bi-twitter"></i></li>
+							<li class="nav-item"><i class="bi bi-pinterest"></i></li>
+						</div>
+					</ul>
+				</nav>
+			</div>
 		</div>
 
+		<!-- ---------- Header End ---------- -->
+
+		<!-- ---------- Hero Start ---------- -->
+
 		<div class="hero">
-			<div class="hero__content">
-				<h1 class="hero__title">
-					Welcome to <br />
-					Restaurant
-				</h1>
-				<p class="hero__text">
-					The people, food and the prime locations make the perfect place good
-					friends & family to come together and have great time.
-				</p>
-				<button class="hero__btn">View Menu</button>
-			</div>
-			<div class="hero__img-wrapper">
-				<span class="frame"></span>
-				<img src="./media/img/hero-svg.png" alt="" class="hero-svg" />
-				<img class="hero__img" src="./media/img/hero-img.png" alt="" />
+			<div class="container">
+				<div class="hero__content">
+					<h1 class="hero__title">
+						Welcome to <br />
+						Restaurant
+					</h1>
+					<p class="hero__text">
+						The people, food and the prime locations make the perfect place good
+						friends & family to come together and have great time.
+					</p>
+					<button class="hero__btn">View Menu</button>
+				</div>
+				<div class="hero__img-wrapper">
+					<span class="frame"></span>
+					<img src="./media/img/hero-svg.png" alt="" class="hero-svg" />
+					<img class="hero__img" src="./media/img/hero-img.png" alt="" />
+				</div>
 			</div>
 		</div>
+
+		<!-- ---------- Hero End ---------- -->
+
+		<!-- ---------- Menu Start ---------- -->
+
+		<div class="menu">
+			<div class="container">
+				<button class="menu__min-btn">Menu</button>
+				<div class="menu__wrapper">
+					<div class="menu__info">
+						<h2 class="menu__info-title">Try Our Special dishes</h2>
+						<p class="menu__info-text">Every time you perfectly dine with us, it should happy for great inspired food in an environment designed with individual touches unique to the local area.</p>
+						<img src="./media/img/menu__info-img.jpg" alt="" class="menu__info-img">
+						<button class="menu__info-btn">See all dishes</button>
+					</div>
+					<div class="menu__lists">
+						<div class="menu__lists-wrapper">
+							<h3 class="menu__list-title">Starters</h3>
+							<ul class="menu__list">
+								<li class="menu__item">
+									<img src="./media/img/menu__list-img1.jpg" alt="" class="menu__item-img">
+									<div class="menu__item-texts">
+										<p class="menu__list-name">Raw Scallops from Erquy</p>
+										<p class="menu__list-price">Shuck the scallop to that used for oysters <span class="menu__list-price-line"></span> $40</p>
+									</div>
+								</li>
+								<li class="menu__item">
+									<img src="./media/img/menu__list-img2.jpg" alt="" class="menu__item-img">
+									<div class="menu__item-texts">
+										<p class="menu__list-name">Spring Roll</p>
+										<p class="menu__list-price">Add oil to a hot pan spring onion whites <span class="menu__list-price-line"></span> $20</p>
+									</div>
+								</li>
+								<li class="menu__item">
+									<img src="./media/img/menu__list-img3.jpg" alt="" class="menu__item-img">
+									<div class="menu__item-texts">
+										<p class="menu__list-name">French Onion Soup</p>
+										<p class="menu__list-price">Wheat flour, apple cider vinegar, bread <span class="menu__list-price-line"></span> $25</p>
+									</div>
+								</li>
+								<li class="menu__item">
+									<img src="./media/img/menu__list-img4.jpg" alt="" class="menu__item-img">
+									<div class="menu__item-texts">
+										<p class="menu__list-name">Tomato Bruschetta</p>
+										<p class="menu__list-price">Bread, olive oil, garlic, black pepper <span class="menu__list-price-line"></span> $30</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="menu__lists-wrapper">
+							<h3 class="menu__list-title">Main Dish</h3>
+							<ul class="menu__list">
+								<li class="menu__item">
+									<img src="./media/img/menu__list-img5.jpg" alt="" class="menu__item-img">
+									<div class="menu__item-texts">
+										<p class="menu__list-name">Grilled Salmon with Dill Sauce</p>
+										<p class="menu__list-price">Brown sugar, salmon fillet, Dijon mustard <span class="menu__list-price-line"></span> $40</p>
+									</div>
+								</li>
+								<li class="menu__item">
+									<img src="./media/img/menu__list-img6.jpg" alt="" class="menu__item-img">
+									<div class="menu__item-texts">
+										<p class="menu__list-name">Roast Beef with Vegetable</p>
+										<p class="menu__list-price">Green beans, rib eye, olive oil, beef <span class="menu__list-price-line"></span> $20</p>
+									</div>
+								</li>
+								<li class="menu__item">
+									<img src="./media/img/menu__list-img7.jpg" alt="" class="menu__item-img">
+									<div class="menu__item-texts">
+										<p class="menu__list-name">Marrkesh Vegetetarian Curruy</p>
+										<p class="menu__list-price">Sweet potato, eggplant, garbanzo bean <span class="menu__list-price-line"></span> $25</p>
+									</div>
+								</li>
+								<li class="menu__item">
+									<img src="./media/img/menu__list-img8.jpg" alt="" class="menu__item-img">
+									<div class="menu__item-texts">
+										<p class="menu__list-name">Spicy Vegan Potato Curry</p>
+										<p class="menu__list-price">Coconut milk, beans, potatoes, curry powder <span class="menu__list-price-line"></span> $35</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="menu__lists-wrapper">
+							<h3 class="menu__list-title">Main Dish</h3>
+							<ul class="menu__list">
+								<li class="menu__item">
+									<img src="./media/img/menu__list-img9.jpg" alt="" class="menu__item-img">
+									<div class="menu__item-texts">
+										<p class="menu__list-name">Apple Pie with Cream</p>
+										<p class="menu__list-price">Whipping cream, egg white, cinnamon <span class="menu__list-price-line"></span> $15</p>
+									</div>
+								</li>
+								<li class="menu__item">
+									<img src="./media/img/menu__list-img10.jpg" alt="" class="menu__item-img">
+									<div class="menu__item-texts">
+										<p class="menu__list-name">Lemon Meringue Pie</p>
+										<p class="menu__list-price">Frozen pie crust, meringue, lemon <span class="menu__list-price-line"></span> $30</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ---------- Menu End ---------- -->
+
+		<!-- ---------- Clients Start ---------- -->
+
+		<div class="clients">
+			<div class="clients__content">
+			  <div class="container">
+				<button class="clients__btn">Testimonial</button>
+				<h2 class="clients__title">our clients say</h2>
+				<p class="clients__text">
+				  We love to hear from customers, so please leave a comment or say
+				  hello in an email.
+				</p>
+				<div class="client-cards-wrapper">
+				  <div class="client-card">
+					<div class="client-card-info">
+					  <img
+						src="./media/img/client-img-1.jpg"
+						alt=""
+						class="client-card-img"
+					  />
+					  <div class="client-card-names">
+						<p class="client-name">Natasha D</p>
+						<p class="client-city">Newyork</p>
+					  </div>
+					</div>
+					<p class="client-text">
+					  They known for its fabulous taste and food. Anywhere you go your
+					  hunger is satisfied. The best chicken & burgers those are yummy.
+					</p>
+				  </div>
+				  <div class="client-card">
+					<div class="client-card-info">
+					  <img
+						src="./media/img/client-img-2.jpg"
+						alt=""
+						class="client-card-img"
+					  />
+					  <div class="client-card-names">
+						<p class="client-name">Jack Sparrow</p>
+						<p class="client-city">Salt Lake City</p>
+					  </div>
+					</div>
+					<p class="client-text">
+					  I have visited this fantastic restaurant on several occasions,
+					  food is absolutely outstanding & attention to detail is in
+					  league of its own.
+					</p>
+				  </div>
+				  <div class="client-card">
+					<div class="client-card-info">
+					  <img
+						src="./media/img/client-img-3.jpg"
+						alt=""
+						class="client-card-img"
+					  />
+					  <div class="client-card-names">
+						<p class="client-name">Martin</p>
+						<p class="client-city">San Diego</p>
+					  </div>
+					</div>
+					<p class="client-text">
+					  Perfectly known for its fabulous taste and food. Anywhere your
+					  hunger is satisfied. They give best fried chicken and burgers
+					  those are yummy.
+					</p>
+				  </div>
+				  <div class="client-card">
+					<div class="client-card-info">
+					  <img
+						src="./media/img/client-img-1.jpg"
+						alt=""
+						class="client-card-img"
+					  />
+					  <div class="client-card-names">
+						<p class="client-name">Natasha D</p>
+						<p class="client-city">Newyork</p>
+					  </div>
+					</div>
+					<p class="client-text">
+					  They known for its fabulous taste and food. Anywhere you go your
+					  hunger is satisfied. The best chicken & burgers those are yummy.
+					</p>
+				  </div>
+				</div>
+				<div class="card-switch-dots">
+				  <div class="card-switch-dot active"></div>
+				  <div class="card-switch-dot"></div>
+				</div>
+			  </div>
+			</div>
+			<div class="clients__img"></div>
+		  </div>
+
+		<!-- ---------- Clients End ---------- -->
+
+		<!-- ---------- Dish Start ---------- -->
+
+		<div class="dish">
+			<div class="container">
+				<div class="dish__btn-wrapper"><button class="dish__btn">menu</button></div>
+				<h3 class="dish__title">Popular Dishes</h3>
+				<p class="dish__text">There is a game between the waiters in restaurant to see who serves the food to each table fastest. That led to attempting the Guinness Record.</p>
+				<div class="dish__cards-wrapper">
+					<div class="dish__card">
+						<img src="./media/img/dishes-img-1.jpg" alt="" class="dish__card-img">
+						<div class="dish__card-info">
+							<span class="dish__card-name bold">Chicken Manjoori</span>
+							<span class="dish__card-price bold">$15</span>
+						</div>
+						<p class="dish__card-text">Dish relished by all age groups as a starter dish at parties.</p>
+					</div>
+					<div class="dish__card">
+						<img src="./media/img/dishes-img-2.jpg" alt="" class="dish__card-img">
+						<div class="dish__card-info">
+							<span class="dish__card-name">Hotdog</span>
+							<span class="dish__card-price">$10</span>
+						</div>
+						<p class="dish__card-text">Grilled sausage served in the slit of a partially sliced bun.</p>
+					</div>
+					<div class="dish__card">
+						<img src="./media/img/dishes-img-3.jpg" alt="" class="dish__card-img">
+						<div class="dish__card-info">
+							<span class="dish__card-name">Fresh Salmon</span>
+							<span class="dish__card-price">$5</span>
+						</div>
+						<p class="dish__card-text">Beat the health blues with our Super Immune Blue Juice Recipe.</p>
+					</div>
+					<div class="dish__card">
+						<img src="./media/img/dishes-img-4.jpg" alt="" class="dish__card-img">
+						<div class="dish__card-info">
+							<span class="dish__card-name">Veg Burger</span>
+							<span class="dish__card-price">$10</span>
+						</div>
+						<p class="dish__card-text">Burgers may be made from ingredients like beans.</p>
+					</div>
+				</div>
+				<div class="dish__all-btn-wrapper"><button class="dish__all-btn">See all dishes</button></div>
+			</div>
+		</div>
+
+		<!-- ---------- Dish End ---------- -->
 	</body>
 </html>

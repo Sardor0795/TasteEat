@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans";
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1360px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.clients__btn {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 3px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: unset;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  margin-bottom: 12px;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  padding-top: 5px;
+}
+
+.clients__content {
+  padding-top: 140px;
+  padding-bottom: 120px;
+  background-color: #292e36;
+}
+
+.clients__title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 8px;
+  font-family: "Cormorant Infant";
+}
+
+.clients__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+
+.clients__img {
+  background-image: url("../media/img/clients-section-big-img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.client-cards-wrapper {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  overflow-x: auto;
+  margin-bottom: 64px;
+}
+.client-card {
+  padding: 0px 40px;
+  width: 554px;
+  min-width: 554px;
+  background-color: #343942;
+  margin-right: 30px;
+}
+
+.client-card-info {
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #797e89;
+  margin-bottom: 32px;
+}
+
+.client-card-img {
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.client-name {
+  font-family: "Cormorant Infant";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.client-city {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+}
+
+.client-text {
+  font-family: "Cormorant Infant";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+
+.card-switch-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.card-switch-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.card-switch-dot.active {
+  background-color: #fff;
+}
