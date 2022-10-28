@@ -76,7 +76,7 @@ html {
 .client-cards-wrapper {
   display: flex;
   position: relative;
-  width: 100vw;
+  max-width: 100vw;
   overflow-x: auto;
   margin-bottom: 64px;
   padding-right: 40px;
