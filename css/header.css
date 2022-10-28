@@ -11,6 +11,11 @@
   margin-left: auto;
 }
 
+.main-logo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .header-btn {
   cursor: pointer;
   background: local;
@@ -45,6 +50,7 @@
 }
 .reservation-btn {
   letter-spacing: 0.44px;
+  padding: 20px 85px;
 }
 .header-btn:hover {
   background: #e1b168;
