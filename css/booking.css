@@ -1,127 +1,125 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .booking {
-    width: 1440px;
-    height: 977px;
-    position: relative;
-
+  width: 1440px;
+  height: 977px;
+  position: relative;
 }
 
 .booking img {
-    width: 100%;
+  width: 100%;
 }
-
 
 .reservation_menu {
-    width: 920px;
-    height: 697px;
-    position: absolute;
-    display: flex;
-    top: 140px;
-    left: 260px;
-    background: rgba(41, 46, 54, 0.95);
+  width: 920px;
+  height: 697px;
+  position: absolute;
+  display: flex;
+  top: 140px;
+  left: 260px;
+  background: rgba(41, 46, 54, 0.95);
 }
 
-
 .box_info {
-    width: 640px;
-    height: 268px;
-    margin: auto;
+  width: 640px;
+  height: 268px;
+  margin: auto;
 }
 
 .info {
-    text-align: center;
+  text-align: center;
 }
 
 .info h3 {
-    width: 143px;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    margin: auto;
-    border-top: solid 2px  #E1B168;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+  width: 143px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin: auto;
+  border-top: solid 2px #e1b168;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 4px;
 }
 
 .info h1 {
-    font-weight: 400;
-    font-size: 40px;
-    margin-top: 11px ;
-    line-height: 56px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    text-transform: capitalize;
-    color: #FFFFFF;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 11px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-
 
 .input_box_1 {
-    display: flex;
-    gap: 23px;
+  display: flex;
+  gap: 23px;
 }
 
-.input_box_1  input {
-    width: 307px;
-    height: 70px;
-    margin-top: 38px;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 33px;
-    color: #FFFFFF;
-    letter-spacing: 0.2px;
-    background: rgba(41, 46, 54, 0.95);
-    border: solid 1px #858585;
+.input_box_1 input {
+  width: 307px;
+  height: 70px;
+  margin-top: 38px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+  letter-spacing: 0.2px;
+  background: rgba(41, 46, 54, 0.95);
+  border: solid 1px #858585;
+  padding: 18px 25px;
 }
 
-.input_box_1  input::placeholder{
-    color:#FFFFFF;
-    padding-left: 23px;
+.input_box_1 input::placeholder {
+  color: #ffffff;
 }
 
 .input_box_2 {
-    display: flex;
-    gap:23px ;
-    margin-top: 23px;
+  display: flex;
+  gap: 23px;
+  margin-top: 23px;
 }
 
 .input_box_2 input {
-    width: 198px;
-    height: 70px;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 33px;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
-    background: rgba(41, 46, 54, 0.95);
-    border: solid 1px #858585;
+  width: 198px;
+  height: 70px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  background: rgba(41, 46, 54, 0.95);
+  border: solid 1px #858585;
+  padding: 18px 25px;
 }
 
-.input_box_2  input::placeholder {
-    color:#FFFFFF;
-    padding-left: 23px;
+.input_box_2 input::placeholder {
+  color: #ffffff;
 }
 
 .btn {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .btn button {
-    width: 242px;
-    height: 66px;
-    margin-top: 30px;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 33px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #000000;
-    background-color: #FFFFFF;
+  width: 242px;
+  height: 66px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+  background-color: #ffffff;
+  border: unset;
 }
