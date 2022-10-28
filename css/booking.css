@@ -44,6 +44,7 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #ffffff;
+  padding-top: 4px;
 }
 
 .info h1 {
@@ -73,11 +74,11 @@
   letter-spacing: 0.2px;
   background: rgba(41, 46, 54, 0.95);
   border: solid 1px #858585;
+  padding: 18px 25px;
 }
 
 .input_box_1 input::placeholder {
   color: #ffffff;
-  padding-left: 23px;
 }
 
 .input_box_2 {
@@ -96,11 +97,11 @@
   color: #ffffff;
   background: rgba(41, 46, 54, 0.95);
   border: solid 1px #858585;
+  padding: 18px 25px;
 }
 
 .input_box_2 input::placeholder {
   color: #ffffff;
-  padding-left: 23px;
 }
 
 .btn {
