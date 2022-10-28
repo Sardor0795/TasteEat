@@ -63,6 +63,7 @@
   align-items: center;
   gap: 60px;
   list-style-type: none;
+  width: 100%;
 }
 .nav-item a {
   font-family: "Josefin Sans";
@@ -89,6 +90,6 @@ i:hover {
 .icons {
   display: flex;
   gap: 20px;
-  padding-left: 400px;
   list-style-type: none;
+  margin-left: auto;
 }
