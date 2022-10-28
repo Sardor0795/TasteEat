@@ -31,7 +31,6 @@
   padding-top: 5px;
   margin-bottom: 12px;
 }
-
 .service {
   background-color: #292e36;
   padding-top: 140px;
@@ -44,8 +43,6 @@
 }
 .service__content {
   max-width: 438px;
-}
-.service__btn {
 }
 .service__title {
   font-weight: 400;
@@ -82,7 +79,6 @@
   flex-direction: column;
   padding: 20px;
 }
-
 .service__card-img {
   width: 60px;
   height: 60px;
