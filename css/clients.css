@@ -79,6 +79,7 @@ html {
   width: 100vw;
   overflow-x: auto;
   margin-bottom: 64px;
+  padding-right: 40px;
 }
 .client-card {
   padding: 0px 40px;
