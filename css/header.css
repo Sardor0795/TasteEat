@@ -4,6 +4,13 @@
   padding: 0;
   margin: 0;
 }
+
+.container {
+  max-width: 1360px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .header-btn {
   cursor: pointer;
   background: local;
@@ -24,13 +31,10 @@
 }
 .header {
   background: #292e36;
-  max-width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
 }
 .action {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 108px;
   padding: 50px 0;
@@ -52,8 +56,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  min-height: 82px;
-  padding-left: 41px;
+  padding: 20px 0;
 }
 .nav-links {
   display: flex;

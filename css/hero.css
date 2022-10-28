@@ -1,14 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
-.hero {
-  display: flex;
-  max-width: 1440px;
+
+.container {
+  max-width: 1360px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.hero {
   background-color: #292e36;
+}
+
+.hero .container {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
   min-height: 802px;
   align-items: flex-end;
-  padding: 0 40px 0 40px;
 }
 
 .hero__content {
