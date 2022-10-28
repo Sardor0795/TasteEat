@@ -83,7 +83,7 @@ html {
 }
 .client-card {
   padding: 0px 40px;
-  width: 554px;
+  min-height: 285px;
   min-width: 554px;
   background-color: #343942;
   margin-right: 30px;
@@ -143,4 +143,7 @@ html {
 
 .card-switch-dot.active {
   background-color: #fff;
+}
+.client-cards-wrapper::-webkit-scrollbar {
+  display: none;
 }
