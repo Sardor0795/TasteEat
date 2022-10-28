@@ -6,10 +6,9 @@
   margin-right: auto;
   margin-left: auto;
   background-color: #292e36;
-  min-height: 880px;
+  min-height: 802px;
   align-items: flex-end;
-  padding: 40px 40px 0 40px;
-  margin-top: -70px;
+  padding: 0 40px 0 40px;
 }
 
 .hero__content {
