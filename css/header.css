@@ -45,7 +45,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 108px;
   padding: 50px 0;
 }
 .call-btn {
@@ -102,4 +101,152 @@ i:hover {
   gap: 20px;
   list-style-type: none;
   margin-left: auto;
+}
+
+.der__menu-btn-wrapper {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar {
+    display: none;
+  }
+  .call-btn {
+    display: none;
+  }
+  .reservation {
+    display: none;
+  }
+  .main-logo {
+    width: 150px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .main-logo img {
+    width: 100%;
+  }
+  .action {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+    padding: 15px 0;
+  }
+
+  /* Burger menu */
+
+  .header__menu-btn-wrapper {
+    display: inline-block;
+    background-color: transparent;
+    border: unset;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 101;
+  }
+
+  .header__menu-btn-wrapper:focus {
+    outline: unset;
+  }
+
+  .header__burger-menu {
+    width: 100%;
+    height: 2px;
+    background-color: #e1b168;
+    position: relative;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .header__burger-menu::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #e1b168;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .header__burger-menu::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #e1b168;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .header__menu-btn-wrapper.active .header__burger-menu {
+    transform: rotate(45deg);
+  }
+  .header__menu-btn-wrapper.active .header__burger-menu::after {
+    transform: translate(20px, 20px);
+    opacity: 0;
+  }
+  .header__menu-btn-wrapper.active .header__burger-menu::before {
+    top: 0;
+    transform: rotate(-90deg);
+  }
+
+  /* Header menu */
+
+  .header.mobile-menu::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #292e36;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+  .header.mobile-menu .call-btn {
+    display: block;
+    position: absolute;
+    top: 35px;
+    z-index: 101;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    line-height: 1;
+    padding: 10px 20px;
+  }
+  .header.mobile-menu .reservation {
+    display: block;
+    position: absolute;
+    top: 500px;
+    z-index: 101;
+    font-size: 80px;
+  }
+  .header.mobile-menu .reservation .reservation-btn {
+    width: 92vw;
+    height: 0;
+  }
+
+  .header.mobile-menu .navbar {
+    display: block;
+    position: absolute;
+    top: 120px;
+    z-index: 101;
+    width: 90vw;
+  }
+  .header.mobile-menu .navbar .nav-links {
+    display: block;
+    text-align: center;
+  }
+  .header.mobile-menu .navbar .nav-links .nav-item {
+    margin-bottom: 10px;
+  }
+  .header.mobile-menu .navbar .nav-links .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
 }
