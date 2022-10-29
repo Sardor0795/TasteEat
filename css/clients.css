@@ -147,3 +147,50 @@ html {
 .client-cards-wrapper::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 480px) {
+  .clients {
+    text-align: center;
+  }
+  .clients__content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .clients__text {
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  .client-cards-wrapper {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  .client-card {
+    min-height: 260px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .client-card-info {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+  .client-card-img {
+    width: 110px;
+  }
+  .client-name {
+    font-size: 25px;
+  }
+  .client-city {
+    font-size: 17px;
+  }
+  .client-text {
+    font-size: 16px;
+  }
+  .card-switch-dot {
+    width: 15px;
+    height: 15px;
+  }
+  .clients__img {
+    min-height: 300px;
+  }
+}
