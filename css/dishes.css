@@ -115,7 +115,7 @@
   font-weight: 700;
 }
 .dish__all-btn-wrapper {
-    text-align: center;
+  text-align: center;
 }
 .dish__all-btn {
   background: local;
@@ -132,4 +132,27 @@
 .dish__all-btn:hover {
   background: #e1b168;
   color: #292e36;
+}
+
+@media (max-width: 480px) {
+  .dish {
+    padding: 50px 0;
+  }
+  .dish__cards-wrapper {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .dish__card {
+    width: 100%;
+    max-width: 100%;
+  }
+  .dish__card-img {
+    height: 250px;
+    object-fit: cover;
+  }
+  .dish__all-btn {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 15px 50px;
+  }
 }
