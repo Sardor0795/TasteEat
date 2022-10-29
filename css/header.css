@@ -188,7 +188,7 @@ i:hover {
     transform: rotate(45deg);
   }
   .header__menu-btn-wrapper.active .header__burger-menu::after {
-    transform: translate(20px, 20px);
+    transform: translate(50px, 50px) rotate(-10deg);
     opacity: 0;
   }
   .header__menu-btn-wrapper.active .header__burger-menu::before {
