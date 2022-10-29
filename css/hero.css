@@ -131,7 +131,7 @@
   .hero__content {
     width: 100%;
     margin-right: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
   }
   .hero__content {
     text-align: center;
@@ -142,7 +142,7 @@
     line-height: unset;
     letter-spacing: 0.2px;
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 35px;
   }
   .hero__text {
     font-size: 17px;

@@ -201,3 +201,85 @@
   margin-bottom: 20px;
   color: #555555;
 }
+
+@media (max-width: 480px) {
+  .section {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    margin-bottom: 0;
+  }
+  .data {
+    flex-wrap: wrap;
+  }
+  .text {
+    margin-right: 0;
+    align-items: center;
+  }
+  .text:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .location {
+    width: 70px;
+    height: 70px;
+  }
+  .content {
+    padding-top: 0;
+  }
+  .work_time {
+    margin-left: 0;
+    width: 70px;
+    height: 70px;
+  }
+  .news-reservation {
+    margin-left: 0;
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .section_two {
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .photo {
+    width: 100%;
+  }
+  .history__photo {
+    width: 100%;
+    margin-right: 0;
+  }
+  .history {
+    width: 100%;
+  }
+  .info_one h3 {
+    margin-top: 15px;
+  }
+  .info_one p {
+    font-size: 17px;
+  }
+  .year {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .year div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .year p {
+    font-size: 17px;
+  }
+  .year h3 {
+    font-size: 35px;
+  }
+
+  .info_two {
+    text-align: center;
+  }
+}
