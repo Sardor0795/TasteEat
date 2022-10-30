@@ -58,14 +58,12 @@
   max-width: 100vw;
   overflow-x: auto;
   margin-bottom: 64px;
-  padding-right: 40px;
 }
 .client-card {
   padding: 0px 40px;
   min-height: 285px;
   min-width: 554px;
   background-color: #343942;
-  margin-right: 30px;
 }
 
 .client-card-info {

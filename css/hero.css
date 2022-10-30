@@ -162,6 +162,17 @@
     height: 20px;
     top: -20px;
   }
+  .hero__img-wrapper::after {
+    top: 0;
+    left: -20px;
+    width: 20px;
+  }
+
+  .frame::after {
+    top: 0;
+    right: -20px;
+    width: 20px;
+  }
   .hero-svg {
     position: absolute;
     top: 0px;
