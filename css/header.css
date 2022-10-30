@@ -203,7 +203,7 @@ i:hover {
   .header.mobile-menu::after {
     content: "";
     width: 100%;
-    height: 120vh;
+    height: 115vh;
     background-color: #292e36;
     position: fixed;
     top: 0;
