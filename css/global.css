@@ -9,6 +9,7 @@
 }
 
 .container {
+  width: 100%;
   max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
@@ -17,8 +18,15 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  box-sizing: border-box;
   height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -27,9 +35,34 @@ body {
   flex-direction: column;
 }
 
+*:focus {
+  outline: 2px dashed #fff;
+  outline-offset: 3px;
+}
+
 .main {
   flex-grow: 1;
 }
+
+a,
+img,
+span,
+button {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* AUTOFILL STYLE */
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -44,9 +77,24 @@ select:-webkit-autofill:focus {
   box-shadow: 0 0 0px 1000px rgba(41, 46, 54, 0.95) inset;
 }
 
+/* PLACEHOLDER STYLE */
+
 ::-webkit-input-placeholder,
 ::-moz-placeholder,
 :-ms-input-placeholder,
 :-moz-placeholder {
   color: #fff;
+}
+
+/* ELEMENT HIDER */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
