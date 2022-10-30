@@ -3,131 +3,100 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .booking {
-  width: 1440px;
-  height: 977px;
-  position: relative;
-  margin: -2px auto 0 auto;
+  min-height: 997px;
+  background-image: url("../media/img/booking-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 140px 0;
 }
-
-.booking img {
-  width: 100%;
-}
-
-.reservation_menu {
-  width: 920px;
-  height: 697px;
-  position: absolute;
-  display: flex;
-  top: 140px;
-  left: 260px;
-  background: rgba(41, 46, 54, 0.95);
-}
-
-.box_info {
-  width: 640px;
-  height: 268px;
-  margin: auto;
-}
-
-.info {
+.booking__form {
+  max-width: 920px;
+  background-color: rgba(41, 46, 54, 0.95);
+  margin-right: auto;
+  margin-left: auto;
+  padding: 140px 140px 155px 140px;
   text-align: center;
 }
-
-.info h3 {
-  width: 143px;
+.booking__info {
+  font-family: "Josefin Sans";
   font-weight: 400;
   font-size: 15px;
   line-height: 22px;
-  margin: auto;
-  border-top: solid 2px #e1b168;
+  text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 4px;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 11px;
 }
-
-.info h1 {
+.booking__title {
+  font-family: "Cormorant Infant";
   font-weight: 400;
   font-size: 40px;
-  margin-top: 11px;
   line-height: 56px;
   text-align: center;
   letter-spacing: 0.2px;
   text-transform: capitalize;
   color: #ffffff;
+  margin-bottom: 38px;
 }
-
-.input_box_1 {
+.booking__inputs-wrapper {
+  max-width: 640px;
+  margin-bottom: 20px;
   display: flex;
-  gap: 23px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
-
-.input_box_1 input {
-  width: 307px;
-  height: 70px;
-  margin-top: 38px;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 33px;
-  color: #ffffff;
-  letter-spacing: 0.2px;
-  background: rgba(41, 46, 54, 0.95);
-  border: 1px solid #858585;
-  padding: 18px 25px;
-  outline: none;
-}
-
-.input_box_1 input::placeholder {
-  color: #ffffff;
-}
-
-.input_box_2 {
-  display: flex;
-  gap: 23px;
-  margin-top: 23px;
-}
-
-.input_box_2 input {
-  width: 198px;
-  height: 70px;
+.booking__input {
+  font-family: "Josefin Sans";
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.2px;
   color: #ffffff;
-  background: rgba(41, 46, 54, 0.95);
+  background-color: transparent;
   border: 1px solid #858585;
-  padding: 18px 25px;
-  outline: none;
+  padding: 18px 23px;
 }
-
-.input_box_2 input::placeholder {
+.booking__input:focus {
+  outline: unset;
+}
+.booking__input::placeholder {
   color: #ffffff;
 }
-
-.btn {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+.input--name {
+  width: 40%;
+  flex-grow: 1;
 }
-
-.btn button {
-  cursor: pointer;
-  width: 242px;
-  height: 66px;
-  margin-top: 30px;
+.input--email {
+  width: 40%;
+  flex-grow: 1;
+}
+.input--pearsons {
+  width: 20%;
+  flex-grow: 1;
+}
+.input--timing {
+  width: 20%;
+  flex-grow: 1;
+}
+.input--date {
+  width: 20%;
+  flex-grow: 1;
+}
+.booking__submit-btn {
+  font-family: "Josefin Sans";
+  font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
   text-align: center;
   letter-spacing: 0.2px;
   color: #000000;
-  background-color: #ffffff;
-  border: unset;
-}
-.btn button:hover {
-  color: #ffffff;
-  background: #e1b168;
+  padding: 20px 54px;
 }

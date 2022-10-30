@@ -659,31 +659,20 @@
 
 		<!-- ---------- Booking Start ---------- -->
 
-		<div class="booking" style="display: none;">
-			<div>
-				<img src="./media/img/IMAGE (1).png" alt="this photo" />
-				<div class="reservation_menu">
-					<div class="box_info">
-						<div class="info">
-							<h3>reservation</h3>
-							<h1>Book Your Table</h1>
-						</div>
-						<div>
-							<div class="input_box_1">
-								<input placeholder="Name" type="text" />
-								<input placeholder="Email" type="email" />
-							</div>
-							<div class="input_box_2">
-								<input placeholder="Persons" type="text" />
-								<input placeholder="Timing" type="text" />
-								<input placeholder="Date" type="text" />
-							</div>
-						</div>
-						<div class="btn">
-							<button>Book A Table</button>
-						</div>
+		<div class="booking">
+			<div class="container">
+				<form action="https://echo.htmlacademy.ru" class="booking__form">
+					<p class="booking__info">reservation</p>
+					<h2 class="booking__title">Book Your Table</h2>
+					<div class="booking__inputs-wrapper">
+						<input class="booking__input input--name" name="name" type="text" placeholder="Name">
+						<input class="booking__input input--email" name="email" type="email" placeholder="Email">
+						<input class="booking__input input--pearsons" name="pearsons" type="text" placeholder="Pearsons">
+						<input class="booking__input input--timing" name="timing" type="text" placeholder="Timing">
+						<input class="booking__input input--date" name="date" type="text" placeholder="Date">
 					</div>
-				</div>
+					<button type="submit" class="booking__submit-btn">Book A Table</button>
+				</form>
 			</div>
 		</div>
 
