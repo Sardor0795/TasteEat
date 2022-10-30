@@ -91,6 +91,7 @@
 }
 .blog__img_btn img {
   display: block;
+  width: 100%;
 }
 .blog__img_btn button {
   position: absolute;
