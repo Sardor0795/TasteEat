@@ -204,8 +204,8 @@
 
 @media (max-width: 480px) {
   .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 45px;
+    padding-bottom: 45px;
     margin-bottom: 0;
   }
   .data {
