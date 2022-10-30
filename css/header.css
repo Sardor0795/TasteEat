@@ -196,7 +196,7 @@ i:hover {
   .header.mobile-menu .call-btn {
     display: block;
     position: absolute;
-    top: 35px;
+    top: 25px;
     z-index: 101;
     font-size: 18px;
     width: auto;
@@ -207,7 +207,7 @@ i:hover {
   .header.mobile-menu .reservation {
     display: block;
     position: absolute;
-    top: 500px;
+    top: 440px;
     z-index: 101;
     font-size: 80px;
   }
@@ -219,7 +219,7 @@ i:hover {
   .header.mobile-menu .navbar {
     display: block;
     position: absolute;
-    top: 120px;
+    top: 95px;
     z-index: 101;
     width: 90vw;
   }
@@ -233,11 +233,11 @@ i:hover {
   .header.mobile-menu .navbar .nav-links .icons {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   body.overflow {
-    height: 120vh;
+    height: 100vh;
     overflow: hidden;
   }
 }
