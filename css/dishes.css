@@ -142,6 +142,9 @@
     flex-wrap: wrap;
     margin-bottom: 30px;
   }
+  .dish__text {
+    margin-bottom: 30px;
+  }
   .dish__card {
     width: 100%;
     max-width: 100%;

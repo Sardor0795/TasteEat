@@ -130,7 +130,7 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #292e36;
-  padding: 5px;
+  padding-top: 5px;
   border-bottom: 1px solid #e1b168;
   border-top: 1px solid #e1b168;
 }
@@ -170,12 +170,19 @@
   }
   .blog__cards {
     flex-wrap: wrap;
+    margin-top: 30px;
   }
   .blog_card {
     width: 100%;
   }
   .blog__img_btn img {
     width: 100%;
+  }
+  .blog_btn {
+    white-space: nowrap;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 15px 50px;
   }
   .card_when {
     justify-content: center;
@@ -187,6 +194,6 @@
     padding: 20px;
   }
   .card_text p {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 }

@@ -103,7 +103,7 @@
   }
   .service .container {
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
   }
   .service__cards {
     flex-wrap: wrap;

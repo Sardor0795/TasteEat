@@ -188,7 +188,9 @@
   }
   .menu__info-img {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
+    height: 310px;
+    object-fit: cover;
   }
   .menu__info-btn {
     font-size: 20px;
@@ -201,7 +203,7 @@
     text-align: left;
   }
   .menu__lists-wrapper {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .menu__lists-wrapper:last-child {
     margin-bottom: 0;
