@@ -19,3 +19,13 @@ if (elsSiteNav) {
     };
   });
 }
+
+// Loader
+
+const elLoader = document.querySelector(".loader-wrapper");
+
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+    elLoader.classList.add("close");
+  }, 500);
+});
