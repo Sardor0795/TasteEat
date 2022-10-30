@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .booking {
   min-height: 997px;
   background-image: url("../media/img/booking-bg.png");
@@ -107,13 +114,19 @@
     min-height: auto;
     background-position: center bottom;
   }
+  .booking__title {
+    margin-bottom: 30px;
+  }
   .booking__form {
-    padding: 50px 20px;
+    padding: 40px 20px;
   }
   .booking__input {
     width: 100%;
     padding: 10px 15px;
     font-size: 17px;
+  }
+  .booking__inputs-wrapper {
+    margin-bottom: 40px;
   }
   .booking__submit-btn {
     font-size: 20px;
