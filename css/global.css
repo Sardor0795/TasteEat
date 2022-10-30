@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
 
+:root {
+  --main-color: #e1b168;
+}
+
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Josefin Sans";
 }
 
 .container {
-  width: 100%;
   max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
@@ -57,7 +59,7 @@ ul {
 
 button {
   border: none;
-  background: none;
+  background: transparent;
   cursor: pointer;
   text-align: center;
 }
