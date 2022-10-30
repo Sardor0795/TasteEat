@@ -61,9 +61,6 @@
 .booking__input:focus {
   outline: unset;
 }
-.booking__input::placeholder {
-  color: #ffffff;
-}
 .input--name {
   width: 40%;
   flex-grow: 1;
