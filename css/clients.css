@@ -66,6 +66,10 @@
   background-color: #343942;
 }
 
+.client-card:not(:last-child) {
+  margin-right: 40px;
+}
+
 .client-card-info {
   padding-bottom: 30px;
   display: flex;
