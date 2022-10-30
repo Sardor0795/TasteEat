@@ -242,3 +242,11 @@ select:-webkit-autofill:focus {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 480px) {
+  .lds-roller div:after {
+    width: 7px;
+    height: 7px;
+    margin: -4px 0 0 -4px;
+  }
+}
