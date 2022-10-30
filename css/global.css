@@ -1,4 +1,4 @@
-/* Fonts */
+/* FONTS */
 
 @font-face {
   font-family: "Cormorant Infant";
@@ -27,8 +27,19 @@
   font-display: swap;
 }
 
+/* CUSTOM PROPERTIES */
+
 :root {
   --main-color: #e1b168;
+  --main-bg: #292e36;
+  --line-bg: #5c6168;
+  --font-josefin: "Josefin Sans";
+  --font-cormorant: "Cormorant Infant";
+  --title-color: #292e36;
+  --text-color: #555555;
+  --info-bg: #fff8f5;
+  --white: #fff;
+  --black: #000;
 }
 
 * {
