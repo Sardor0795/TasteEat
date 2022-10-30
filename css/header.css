@@ -229,9 +229,11 @@ i:hover {
     top: 450px;
     z-index: 101;
     font-size: 80px;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .header.mobile-menu .reservation .reservation-btn {
-    width: 92vw;
+    width: 90vw;
     height: 0;
   }
 
