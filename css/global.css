@@ -45,7 +45,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Josefin Sans";
+  font-family: var(--font-josefin);
 }
 
 .container {
@@ -75,7 +75,7 @@ body {
 }
 
 *:focus {
-  outline: 2px dashed #fff;
+  outline: 2px dashed var(--main-color);
   outline-offset: 3px;
 }
 
