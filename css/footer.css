@@ -207,6 +207,9 @@ i:hover {
   .footer_icons {
     padding-bottom: 5px;
   }
+  .footer_icons.icons {
+    margin-left: unset;
+  }
   .footer_action {
     flex-wrap: wrap;
     margin: 0;
@@ -251,6 +254,9 @@ i:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+  .last_text2 {
     text-align: center;
   }
 }
