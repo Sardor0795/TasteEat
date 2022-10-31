@@ -44,7 +44,8 @@
   color: #292e36;
 }
 .line {
-  border: 1px solid #5c6168;
+  height: 1px;
+  background-color: var(--line-bg);
 }
 .navbar {
   display: flex;
