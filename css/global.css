@@ -172,11 +172,11 @@ select:-webkit-autofill:focus {
   content: " ";
   display: block;
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   background: var(--main-color);
-  margin: 10px 0 0 10px;
+  margin: -4px 0 0 -4px;
 }
 .lds-roller div:nth-child(1) {
   animation-delay: -0.036s;
