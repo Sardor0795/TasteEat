@@ -159,14 +159,14 @@ i:hover {
   color: #ffffff;
 }
 .footer_line {
-  border: 1px solid #575b62;
+  height: 1px;
+  background-color: var(--line-bg);
 }
 .last_part {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 370px;
-  height: 80px;
+  justify-content: space-between;
+  padding: 25px 0;
 }
 .gold {
   color: #e1b168;
