@@ -77,6 +77,7 @@ i:hover {
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #e1b168;
+  text-decoration: none;
 }
 #email {
   width: 456px;
