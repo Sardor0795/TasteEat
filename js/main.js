@@ -24,8 +24,10 @@ if (elsSiteNav) {
 
 const elLoader = document.querySelector(".loader-wrapper");
 
-document.addEventListener("DOMContentLoaded", () => {
-  setTimeout(() => {
-    elLoader.classList.add("close");
-  }, 500);
-});
+if (elLoader) {
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      elLoader.classList.add("close");
+    }, 500);
+  });
+}
