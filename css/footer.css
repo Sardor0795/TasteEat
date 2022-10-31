@@ -241,4 +241,16 @@ i:hover {
     height: auto;
     margin-bottom: 30px;
   }
+  .last_part {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .last_text1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
