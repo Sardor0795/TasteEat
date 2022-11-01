@@ -226,6 +226,7 @@ i:hover {
     width: 120px;
     position: relative;
     z-index: 101;
+    top: 6px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -235,7 +236,7 @@ i:hover {
   .header.mobile-menu .call-btn {
     display: block;
     position: absolute;
-    top: 27px;
+    top: 23px;
     z-index: 101;
     font-size: 0;
     width: auto;
