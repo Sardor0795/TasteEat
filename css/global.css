@@ -152,12 +152,10 @@ select:-webkit-autofill:focus {
   z-index: 999;
   transition: opacity 0.5s ease;
 }
-
 .loader-wrapper.close {
   opacity: 0;
   pointer-events: none;
 }
-
 .lds-roller {
   display: inline-block;
   position: relative;
@@ -234,6 +232,7 @@ select:-webkit-autofill:focus {
   top: 56px;
   left: 12px;
 }
+
 @keyframes lds-roller {
   0% {
     transform: rotate(0deg);
