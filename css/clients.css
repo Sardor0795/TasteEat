@@ -150,22 +150,25 @@
     min-height: 260px;
     padding-top: 15px;
     padding-bottom: 10px;
+    max-width: 390px;
+    min-width: 390px;
   }
   .client-card-info {
-    padding-bottom: 25px;
-    margin-bottom: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
   }
   .client-card-img {
-    width: 110px;
+    width: 90px;
   }
   .client-name {
-    font-size: 25px;
+    font-size: 23px;
   }
   .client-city {
     font-size: 17px;
   }
   .client-text {
     font-size: 16px;
+    line-height: 30px;
   }
   .card-switch-dot {
     width: 15px;
@@ -173,5 +176,8 @@
   }
   .clients__img {
     min-height: 300px;
+  }
+  .client-card:not(:last-child) {
+    margin-right: 20px;
   }
 }
