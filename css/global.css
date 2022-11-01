@@ -250,3 +250,20 @@ select:-webkit-autofill:focus {
     margin: -1px 0 0 -1px;
   }
 }
+
+/* Custom Body Scroll */
+
+body::-webkit-scrollbar {
+  /* Scroll width */
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  /* Foreground */
+  background: var(--main-color);
+}
+
+body::-webkit-scrollbar-track {
+  /* Background */
+  background: #2e343cdc;
+}
