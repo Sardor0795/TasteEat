@@ -53,6 +53,16 @@
   padding: 20px 0;
   width: 100%;
   background: #292e36;
+  transition: all .3s ease;
+}
+.navbar.sticky-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 30px 30px;
+  background-color: #292e36e2;
+  z-index: 999;
+  border-bottom: 1px solid var(--line-bg);
 }
 .nav-links {
   display: flex;
@@ -262,6 +272,10 @@ i:hover {
     top: 105px;
     z-index: 101;
     width: 90vw;
+    padding: 20px 0;
+    background-color: transparent;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .header.mobile-menu .navbar .nav-links {
     display: block;

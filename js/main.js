@@ -31,3 +31,18 @@ if (elLoader) {
     }, 500);
   });
 }
+
+// Sticky Navbar
+
+const header = document.querySelector(".header");
+const elNavBar = document.querySelector(".js-nav-bar");
+
+if (elNavBar) {
+  window.onscroll = () => {
+    if (window.pageYOffset >= elNavBar.offsetTop + 100) {
+      elNavBar.classList.add('sticky-menu')
+    } else {
+      elNavBar.classList.remove('sticky-menu')
+    }
+  }
+}
