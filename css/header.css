@@ -104,6 +104,15 @@ i:hover {
 }
 
 @media (max-width: 480px) {
+  .main {
+    padding-top: 70px;
+  }
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: #292e36;
+    z-index: 999;
+  }
   .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -129,7 +138,7 @@ i:hover {
     justify-content: flex-start;
     align-items: center;
     gap: 0;
-    padding: 15px 0;
+    padding: 10px 0;
   }
 
   /* Burger menu */
